@@ -1,10 +1,12 @@
 #!/usr/bin/python
+
+import streamlit as st
 import os
 import sys
 import libs
 import libs.fingerprint as fingerprint
 import argparse
-import streamlit as st
+
 
 from argparse import RawTextHelpFormatter
 from itertools import izip_longest
